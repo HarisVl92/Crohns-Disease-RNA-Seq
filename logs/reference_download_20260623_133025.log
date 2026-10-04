@@ -1,0 +1,8 @@
+[13:30:25] Reference GRCh38 Ensembl r110 -> /home/haris/Desktop/Bioinformatics_Project/data/reference
+[13:30:25] download Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+[13:32:34] Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz: BSD sum OK -> 19039 920395
+[13:32:34] download Homo_sapiens.GRCh38.110.chr.gtf.gz
+[13:32:41] Homo_sapiens.GRCh38.110.chr.gtf.gz: BSD sum OK -> 04474 53052
+[13:32:41] ΟΛΟΚΛΗΡΩΘΗΚΕ: FASTA + GTF (release 110)
+-rw-rw-r-- 1 haris haris 899M Apr 21  2023 /home/haris/Desktop/Bioinformatics_Project/data/reference/fasta/GRCh38_r110/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+-rw-rw-r-- 1 haris haris  52M Apr 24  2023 /home/haris/Desktop/Bioinformatics_Project/data/reference/gtf/GRCh38_r110/Homo_sapiens.GRCh38.110.chr.gtf.gz

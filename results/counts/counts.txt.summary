@@ -1,0 +1,15 @@
+Status	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782721.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782830.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782732.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782738.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782739.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782761.sorted.bam
+Assigned	2884610	3444354	4950940	4133982	2924087	2301685
+Unassigned_Unmapped	695177	1850675	440819	444809	701391	844363
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	4899802	3200587	3518728	5053778	5385808	12196555
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	717424	536476	357107	438788	2514293	1688906
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	197251	336499	508437	464272	312440	344945

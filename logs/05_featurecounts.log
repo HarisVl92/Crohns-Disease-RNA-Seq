@@ -1,0 +1,86 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           SRR1782721.sorted.bam                            ||
+||                           SRR1782830.sorted.bam                            ||
+||                           SRR1782732.sorted.bam                            ||
+||                           SRR1782738.sorted.bam                            ||
+||                           SRR1782739.sorted.bam                            ||
+||                           SRR1782761.sorted.bam                            ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.chr.gtf (GTF)            ||
+||      Dir for temp files : /home/haris/Desktop/Bioinformatics_Project/r ... ||
+||                                                                            ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.chr.gtf ...                   ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR1782721.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9394264                                              ||
+||    Successfully assigned alignments : 2884610 (30.7%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1782830.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9368591                                              ||
+||    Successfully assigned alignments : 3444354 (36.8%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1782732.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9776031                                              ||
+||    Successfully assigned alignments : 4950940 (50.6%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1782738.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10535629                                             ||
+||    Successfully assigned alignments : 4133982 (39.2%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1782739.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11838019                                             ||
+||    Successfully assigned alignments : 2924087 (24.7%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1782761.sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 17376454                                             ||
+||    Successfully assigned alignments : 2301685 (13.2%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/haris/Desktop/Bio  ||
+|| informatics_Project/results/counts/counts.txt.summary"                     ||
+||                                                                            ||
+\\============================================================================//
+

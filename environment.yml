@@ -1,0 +1,29 @@
+name: rnaseq
+# Δεδομένο conda env για το Bioinformatics RNA-Seq pipeline (Month 1->4).
+# Δημιουργία:   conda env create -f environment.yml
+# Χρήση:        conda activate rnaseq
+# Lock exact:   conda env export -n rnaseq > environment.lock.yml
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- QC & trimming ---
+  - fastqc
+  - multiqc
+  - trim-galore
+  - cutadapt
+  - trimmomatic
+  # --- alignment ---
+  - hisat2
+  - bowtie2
+  - bwa
+  # --- SAM/BAM & variant utils ---
+  - samtools
+  - bcftools
+  - bedtools
+  # --- quantification ---
+  - subread          # παρέχει featureCounts
+  # --- downstream / workflow / data ---
+  - blast
+  - snakemake-minimal
+  - sra-tools

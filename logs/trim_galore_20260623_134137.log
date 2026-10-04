@@ -1,0 +1,128 @@
+
+Trim Galore - Oxidized Edition v2.2.0
+unknown — linux/x86_64 — built 2026-05-16T11:02:42Z
+==================================================
+
+Using 4 worker threads (parallel trim + compress)
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 156328). Second best hit was Nextera (count: 2).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: not enabled (auto-detection found 96 of 1000000 reads (0.01%) with poly-G tails — below threshold). To force-enable: --poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782721.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782721_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:              8810354
+Reads with adapters:                3983186 (45.2%)
+Reads too short:                    2896953 (32.9%)
+Reads written (passing filters):    5913401 (67.1%)
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782721.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782721.fastq.gz_trimming_report.json
+
+--------------------------------------------------
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 2092). Second best hit was smallRNA (count: 1).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: ENABLED (auto-detected). 129 of 1000000 reads (0.01%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782732.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782732_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:              8529379
+Reads with adapters:                2651024 (31.1%)
+Reads too short:                    1149127 (13.5%)
+Reads written (passing filters):    7380252 (86.5%)
+Reads with poly-G/C trimmed:         374833 (4.4%)
+  Poly-G/C bases removed:           1582299
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782732.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782732.fastq.gz_trimming_report.json
+
+--------------------------------------------------
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 10336). Second best hit was smallRNA (count: 1).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: ENABLED (auto-detected). 135 of 1000000 reads (0.01%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782738.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782738_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:              8018916
+Reads with adapters:                2602947 (32.5%)
+Reads too short:                    1169016 (14.6%)
+Reads written (passing filters):    6849900 (85.4%)
+Reads with poly-G/C trimmed:         362593 (4.5%)
+  Poly-G/C bases removed:           1554610
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782738.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782738.fastq.gz_trimming_report.json
+
+--------------------------------------------------
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 12111). Second best hit was Nextera (count: 3).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: ENABLED (auto-detected). 125 of 1000000 reads (0.01%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782739.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782739_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:              9438776
+Reads with adapters:                3167576 (33.6%)
+Reads too short:                    1569618 (16.6%)
+Reads written (passing filters):    7869158 (83.4%)
+Reads with poly-G/C trimmed:         349772 (3.7%)
+  Poly-G/C bases removed:           1465331
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782739.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782739.fastq.gz_trimming_report.json
+
+--------------------------------------------------
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 24003). Second best hit was smallRNA (count: 1).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: ENABLED (auto-detected). 351 of 1000000 reads (0.04%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782761.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782761_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:             10319948
+Reads with adapters:                3370824 (32.7%)
+Reads too short:                    2295456 (22.2%)
+Reads written (passing filters):    8024492 (77.8%)
+Reads with poly-G/C trimmed:         533136 (5.2%)
+  Poly-G/C bases removed:           2252029
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782761.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782761.fastq.gz_trimming_report.json
+
+--------------------------------------------------
+Auto-detecting adapter type...
+Using Illumina adapter for trimming (count: 42555). Second best hit was Nextera (count: 2).
+Adapter: Illumina (AGATCGGAAGAGC)
+
+Poly-G trimming: ENABLED (auto-detected). 437 of 1000000 reads (0.04%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+Trimming: /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782830.fastq.gz
+Output:   /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782830_trimmed.fq.gz
+
+=== Summary ===
+
+Total reads processed:              8485063
+Reads with adapters:                2909209 (34.3%)
+Reads too short:                    1212669 (14.3%)
+Reads written (passing filters):    7272394 (85.7%)
+Reads with poly-G/C trimmed:         412316 (4.9%)
+  Poly-G/C bases removed:           1754726
+
+Report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782830.fastq.gz_trimming_report.txt
+JSON report: /home/haris/Desktop/Bioinformatics_Project/data/trimmed/SRR1782830.fastq.gz_trimming_report.json

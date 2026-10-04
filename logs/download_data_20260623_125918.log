@@ -1,0 +1,3 @@
+[12:59:18] Προορισμός: /home/haris/Desktop/Bioinformatics_Project/data/raw  (συνολικά 6 samples)
+[12:59:18] SRR1782721: download → /home/haris/Desktop/Bioinformatics_Project/data/raw/SRR1782721.fastq.gz
+ERROR: SRR1782721: wget απέτυχε

@@ -1,0 +1,10 @@
+# Provenance: GEO GSE57945 -> SRA SRP042228 (BioProject PRJNA248469)
+# Haberman et al. 2014, J Clin Invest -- RISK cohort, treatment-naive pediatric ileal biopsies
+# Διαγνώσεις από GEO series matrix· run accessions + URLs από ENA. Single-end RNA-Seq.
+run_accession	condition	diagnosis	sex	histo	instrument_model	library_layout	Mreads	fastq_ftp
+SRR1782721	Crohn	CD	Male	Macroscopic inflammation	Illumina HiSeq 2000	SINGLE	8.810354	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/001/SRR1782721/SRR1782721.fastq.gz
+SRR1782830	Crohn	CD	Female	Macroscopic inflammation	Illumina HiSeq 2000	SINGLE	8.485063	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/000/SRR1782830/SRR1782830.fastq.gz
+SRR1782732	Crohn	CD	Male	Macroscopic inflammation	Illumina HiSeq 2000	SINGLE	8.529379	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/002/SRR1782732/SRR1782732.fastq.gz
+SRR1782738	Control	Not IBD	Male		Illumina HiSeq 2000	SINGLE	8.018916	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/008/SRR1782738/SRR1782738.fastq.gz
+SRR1782739	Control	Not IBD	Male		Illumina HiSeq 2000	SINGLE	9.438776	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/009/SRR1782739/SRR1782739.fastq.gz
+SRR1782761	Control	Not IBD	Male		Illumina HiSeq 2000	SINGLE	10.319948	ftp.sra.ebi.ac.uk/vol1/fastq/SRR178/001/SRR1782761/SRR1782761.fastq.gz

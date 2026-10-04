@@ -1,0 +1,52 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR1782721.sorted.bam                            ||
+||                                                                            ||
+||             Output file : _strandtest_s1.txt                               ||
+||                 Summary : _strandtest_s1.txt.summary                       ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.chr.gtf (GTF)            ||
+||      Dir for temp files : /home/haris/Desktop/Bioinformatics_Project/r ... ||
+||                                                                            ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.chr.gtf ...                   ||
+||    Features : 1649476                                                      ||
+||    Meta-features : 62700                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR1782721.sorted.bam...                                  ||
+||    Strand specific : stranded                                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9394264                                              ||
+||    Successfully assigned alignments : 1532919 (16.3%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/haris/Desktop/Bio  ||
+|| informatics_Project/results/counts/_strandtest_s1.txt.summary"             ||
+||                                                                            ||
+\\============================================================================//
+

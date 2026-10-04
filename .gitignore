@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Large data: never committed. Scripts 01-05 re-create everything below.
+# ---------------------------------------------------------------------------
+data/raw/
+data/trimmed/*.fq.gz
+data/reference/fasta/
+data/reference/gtf/
+data/reference/hisat2_index/
+results/alignment/
+
+# Per-sample FastQC output (the MultiQC summary reports are kept)
+results/fastqc_raw/*_fastqc.html
+results/fastqc_raw/*_fastqc.zip
+results/fastqc_trimmed/*_fastqc.html
+results/fastqc_trimmed/*_fastqc.zip
+results/**/*multiqc*_data/
+
+# Regenerable intermediates (a gzipped copy of the count matrix is tracked)
+results/counts/counts.txt
+results/**/*.rds
+
+# Personal notes: not for publication
+RNAseq_Manual_GR.pdf
+
+# OS, editor, Python and R clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
