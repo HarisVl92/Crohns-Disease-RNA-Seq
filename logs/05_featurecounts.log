@@ -23,7 +23,7 @@
 ||              Paired-end : no                                               ||
 ||        Count read pairs : no                                               ||
 ||              Annotation : Homo_sapiens.GRCh38.110.chr.gtf (GTF)            ||
-||      Dir for temp files : /home/haris/Desktop/Bioinformatics_Project/r ... ||
+||      Dir for temp files : ./results/counts                                 ||
 ||                                                                            ||
 ||                 Threads : 16                                               ||
 ||                   Level : meta-feature level                               ||
@@ -79,8 +79,8 @@
 || Write the final count table.                                               ||
 || Write the read assignment summary.                                         ||
 ||                                                                            ||
-|| Summary of counting results can be found in file "/home/haris/Desktop/Bio  ||
-|| informatics_Project/results/counts/counts.txt.summary"                     ||
+|| Summary of counting results can be found in file "./results/counts/counts  ||
+|| .txt.summary"                                                              ||
 ||                                                                            ||
 \\============================================================================//
 

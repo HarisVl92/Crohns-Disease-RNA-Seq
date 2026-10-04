@@ -1,8 +1,11 @@
 name: rnaseq
-# Δεδομένο conda env για το Bioinformatics RNA-Seq pipeline (Month 1->4).
-# Δημιουργία:   conda env create -f environment.yml
-# Χρήση:        conda activate rnaseq
-# Lock exact:   conda env export -n rnaseq > environment.lock.yml
+# Conda environment for the shell steps (01-05) and the Python steps (07, 09).
+#   create:   conda env create -f environment.yml
+#   activate: conda activate rnaseq
+#   lock:     conda env export -n rnaseq > environment.lock.yml
+# The R steps (06, 08) run on R 4.3 with Bioconductor packages (see README).
+# The environment is shared with other training projects, so it also contains
+# tools that this pipeline does not use (bowtie2, bwa, bcftools, bedtools, blast).
 channels:
   - conda-forge
   - bioconda
@@ -17,13 +20,18 @@ dependencies:
   - hisat2
   - bowtie2
   - bwa
-  # --- SAM/BAM & variant utils ---
+  # --- SAM/BAM & variant utilities ---
   - samtools
   - bcftools
   - bedtools
   # --- quantification ---
-  - subread          # παρέχει featureCounts
-  # --- downstream / workflow / data ---
+  - subread          # provides featureCounts
+  # --- downstream / workflow / data access ---
   - blast
   - snakemake-minimal
   - sra-tools
+  # --- Python steps (07_enrichr.py, 09_qc_summary.py) ---
+  - python>=3.10
+  - pandas
+  - matplotlib
+  - requests

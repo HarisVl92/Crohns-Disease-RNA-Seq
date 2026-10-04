@@ -1,4 +1,4 @@
-Status	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782721.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782830.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782732.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782738.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782739.sorted.bam	/home/haris/Desktop/Bioinformatics_Project/results/alignment/SRR1782761.sorted.bam
+Status	./results/alignment/SRR1782721.sorted.bam	./results/alignment/SRR1782830.sorted.bam	./results/alignment/SRR1782732.sorted.bam	./results/alignment/SRR1782738.sorted.bam	./results/alignment/SRR1782739.sorted.bam	./results/alignment/SRR1782761.sorted.bam
 Assigned	2884610	3444354	4950940	4133982	2924087	2301685
 Unassigned_Unmapped	695177	1850675	440819	444809	701391	844363
 Unassigned_Read_Type	0	0	0	0	0	0
