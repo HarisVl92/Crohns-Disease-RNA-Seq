@@ -1,0 +1,7 @@
+run	condition	sex	raw_reads_M	after_trimming_pct	aligned_pct	multimapped_pct	assigned_M	assigned_pct_of_trimmed	size_factor
+SRR1782721	Crohn	Male	8.81	67.1	88.24	24.0	2.88	48.8	0.704
+SRR1782830	Crohn	Female	8.49	85.7	74.55	15.19	3.44	47.4	1.323
+SRR1782732	Crohn	Male	8.53	86.5	94.03	15.22	4.95	67.1	1.353
+SRR1782738	Control	Male	8.02	85.4	93.51	19.97	4.13	60.4	1.531
+SRR1782739	Control	Male	9.44	83.4	91.09	18.01	2.92	37.2	1.084
+SRR1782761	Control	Male	10.32	77.8	89.48	35.45	2.3	28.7	0.488

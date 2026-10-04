@@ -1,0 +1,4 @@
+"symbol","expected","note","log2FC_full","pvalue_full","padj_full","log2FC_without_outlier","pvalue_without_outlier","direction_as_published"
+"DUOX2","up","Haberman et al. 2014",1.61,0.059,0.46,1.64,0.038,TRUE
+"DUOXA2","up","maturation partner of DUOX2",2.82,0.0019,0.12,2.68,0.0017,TRUE
+"APOA1","down","Haberman et al. 2014",-1.37,0.1,0.56,-0.17,0.78,TRUE

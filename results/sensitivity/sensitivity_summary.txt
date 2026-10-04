@@ -1,0 +1,19 @@
+=== Sensitivity analysis: Crohn vs Control ===
+Full model (6 samples): 58 DE genes (padj < 0.05)
+Without SRR1782761 (5 samples): 56 DE genes (padj < 0.05)
+
+Support for the full-model DE genes without the outlier:
+         support
+direction replicated consistent not supported
+     down          6         19             2
+     up           30          1             0
+
+Published markers (log2FC = MLE, unshrunk):
+ symbol expected                        note log2FC_full pvalue_full padj_full
+  DUOX2       up        Haberman et al. 2014        1.61      0.0590      0.46
+ DUOXA2       up maturation partner of DUOX2        2.82      0.0019      0.12
+  APOA1     down        Haberman et al. 2014       -1.37      0.1000      0.56
+ log2FC_without_outlier pvalue_without_outlier direction_as_published
+                   1.64                 0.0380                   TRUE
+                   2.68                 0.0017                   TRUE
+                  -0.17                 0.7800                   TRUE
