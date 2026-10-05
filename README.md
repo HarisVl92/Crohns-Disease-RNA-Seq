@@ -214,8 +214,8 @@ Tested on Ubuntu with 16 threads and 64 GB RAM. The raw data, reference and inde
 about 18 GB.
 
 ```bash
-git clone https://github.com/HarisVl92/crohns-disease-rnaseq.git
-cd crohns-disease-rnaseq
+git clone https://github.com/HarisVl92/Crohns-Disease-RNA-Seq.git
+cd Crohns-Disease-RNA-Seq
 
 # Tools for steps 01-05 (plus Python for 07 and 09)
 conda env create -f environment.yml
